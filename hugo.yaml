@@ -1,3 +1,15 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://snoska.media/
+languageCode: ru-ru
+title: snoska.media
+theme: ["PaperMod"]
+
+
+params:
+  defaultTheme: auto
+  homeInfoParams:
+    Title: Привет!
+    Content: "Пока вся информация в телеге:"
+
+  socialIcons: # optional
+    - name: "telegram"
+      url: "https://t.me/snoska_media"
