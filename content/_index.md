@@ -39,7 +39,6 @@ testimonials:
     gradient-angle="180"
 >}}
 
-{{< client-logos animate="true" >}}
 
 {{< features-section 
     title="Modern Features for Modern Websites"
@@ -84,11 +83,7 @@ testimonials:
 
 {{< /features-section >}}
 
-{{< testimonials 
-    title="Trusted by Modern Web Teams"
-    description="See how teams are building better websites with our theme."
-    animate="true"
-    background-color="#f1f5f9"
->}}
+{{< client-logos animate="true" title="Компании, которые мы защищаем от штрафов Роскомнадзора">}}
+
 
 {{< cta >}}

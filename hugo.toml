@@ -14,7 +14,7 @@ enableGitInfo = true      # Enable Git info for lastmod
 [module]
 [module.hugoVersion]
 extended = true
-min = "0.80.0"
+min = "0.140.0"
 
 # Required Build Configuration
 [build]
@@ -35,8 +35,8 @@ startLevel = 2
 
 # Theme Parameters
 [params]
-description = "Автоматическая маркировка"
-author = "Nikita Belenkiy"
+description = "Автоматическая маркировка иноагентов, террористов, экстремистов"
+author = "dev366.com"
 logo = "/images/logo.svg"      # Path to your logo
 # Google Analytics ID (e.g., "G-XXXXXXXXXX")
 googleAnalytics = "G-XXXXXXXXXX"  # Only enabled in production
@@ -53,7 +53,7 @@ src = "/images/logo.svg"
 # Header Buttons (optional)
 [params.header.buttons]
 [params.header.buttons.signIn]
-text = "Sign in"
+text = "Войти в ЛК"
 url = "/signin"
 [params.header.buttons.getStarted]
 text = "Подключиться"
@@ -63,19 +63,20 @@ url = "/get-started"
 [params.cta]
 enable = true
 title = "Готовы подключиться?"
-description = "Join companies using our platform"
+#description = "Join companies using our platform"
 [params.cta.primary_button]
-text = "Get Started Free"
+text = "Да, подключаемся"
 url = "/get-started"
 [params.cta.secondary_button]
-text = "Book Demo"
-url = "/demo"
+text = "Нет, хочу задать вопрос"
+url = "mailto:info@snoska.media?subject=Вопрос"
 
 # Social Media Links (optional)
 [params.social]
 #linkedin = "https://linkedin.com/in/yourusername"
 #twitter = "https://twitter.com/yourusername"
 #github = "https://github.com/yourusername"
+telegram = "https://t.me/snoska_media"
 
 # Navigation Menu
 [menu]
@@ -108,38 +109,37 @@ weight = 2
 
 # Footer Column 1 Menu
 [[menu.footer_column_1]]
-name = "Performance"
-url = "/features/performance/"
-weight = 1
-[[menu.footer_column_1]]
-name = "Design System"
-url = "/features/design-system/"
-weight = 2
-[[menu.footer_column_1]]
-name = "Developer Experience"
-url = "/features/developer-experience/"
-weight = 3
-
-# Footer Column 2 Menu
-[[menu.footer_column_2]]
-name = "Blog"
-url = "/blog"
-weight = 1
-[[menu.footer_column_2]]
-name = "About Us"
+name = "О Нас"
 url = "/company"
 weight = 2
 [[menu.footer_column_2]]
-name = "Careers"
-url = "/careers"
-weight = 3
-
-# Footer Column 3 Menu
-[[menu.footer_column_3]]
-name = "License"
-url = "/license"
+name = "Правила"
+url = "/terms"
 weight = 1
 [[menu.footer_column_3]]
-name = "Privacy Policy"
+name = "Политика"
 url = "/privacy"
-weight = 2
+weight = 1
+#[[menu.footer_column_1]]
+#name = "Design System"
+#url = "/features/design-system/"
+#weight = 2
+#[[menu.footer_column_1]]
+#name = "Developer Experience"
+#url = "/features/developer-experience/"
+#weight = 3
+
+# Footer Column 2 Menu
+#[[menu.footer_column_2]]
+#name = "Blog"
+#url = "/blog"
+#weight = 1
+#[[menu.footer_column_2]]
+#name = "О Нас"
+#url = "/company"
+#weight = 2
+#[[menu.footer_column_2]]
+#name = "Careers"
+#url = "/careers"
+#weight = 3
+
