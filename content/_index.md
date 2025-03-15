@@ -27,11 +27,11 @@ testimonials:
 ---
 
 {{< hero 
-    headline="Build Your SaaS Website"
-    sub_headline="Create stunning, responsive websites that load instantly. Built with Hugo and TailwindCSS for maximum performance and flexibility."
-    primary_button_text="Get Started Free"
+    headline="Автоматическая маркировка Иноагентов, Террористов и Экстремистов"
+    sub_headline="На веб-страницах и в Телеграм"
+    primary_button_text="Подключиться"
     primary_button_url="#"
-    secondary_button_text="View Demo"
+    secondary_button_text="Посмотреть примеры"
     secondary_button_url="#"
     hero_image="/images/hero-dashboard.svg"
     gradient-from="#dbeafe"
@@ -41,8 +41,8 @@ testimonials:
 
 
 {{< features-section 
-    title="Modern Features for Modern Websites"
-    description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
+    title="Автоматическая маркировка иноагентов, террористов и экстремистов"
+    description="Защитим вас от штрафов Роскомнадзора за некорректную маркировку "
 >}}
 
 {{< feature

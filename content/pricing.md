@@ -6,12 +6,12 @@ layout: "pricing"
 
 {{< pricing-table-1 >}}
 {
-    "title": "Designed for business teams like yours",
-    "description": "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
+    "title": "Тарифы для веб-сайтов",
+    "description": "",
     "plans": [
         {
-            "name": "Starter",
-            "price": "29",
+            "name": "Личный блог",
+            "price": "4999",
             "description": "Best option for personal use & for your next project.",
             "features": [
                 "Individual configuration",
@@ -26,10 +26,9 @@ layout: "pricing"
             }
         },
         {
-            "name": "Company",
-            "price": "99",
+            "name": "Региональное СМИ",
+            "price": "30000",
             "description": "Relevant for multiple users, extended & premium support.",
-            "featured": true,
             "features": [
                 "Individual configuration",
                 "No setup, or hidden fees",
@@ -43,8 +42,8 @@ layout: "pricing"
             }
         },
         {
-            "name": "Enterprise",
-            "price": "499",
+            "name": "Федеральное СМИ",
+            "price": "90000",
             "description": "Best for large scale uses and extended redistribution rights.",
             "features": [
                 "Individual configuration",
