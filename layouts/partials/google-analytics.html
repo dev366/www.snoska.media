@@ -1,3 +1,16 @@
+<!-- Snoska.Media marker -->
+<script type='application/javascript'>
+    (function (doc, site_id) {
+        const firstScriptElement = doc.getElementsByTagName("script")[0]
+        const scriptElement = doc.createElement("script")
+        scriptElement.async = true
+        scriptElement.src = "//cdn.snoska.media/script.js?id=" + site_id
+        firstScriptElement.parentNode.insertBefore(scriptElement, firstScriptElement)
+    })(document, "12341234123412341234")
+</script>
+<!-- /Snoska.Media marker -->
+
+{{ if hugo.IsProduction }}
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -14,3 +27,4 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/99403469" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+{{ end }}
