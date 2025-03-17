@@ -1,88 +1,26 @@
 ---
-title: "Privacy Policy"
+title: "Политика обработки персональных данных"
 layout: "simple"
 ---
 
-## Introduction
+## Термины и определения
 
-At Saasify, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.
+Эта Политика является неотъемлемой частью Пользовательского соглашения.
 
----
+1. Основные термины
+   1.1. Персональные данные – любая информация, относящаяся к прямо или косвенно определенному или определяемому физическому лицу (субъекту персональных данных).
+   1.2. Пользователь (“Вы”) — лицо, имеющее доступ к Чат-боту.
+   1.3. Субъект персональных данных — Пользователь (физическое лицо), к которому относятся Персональные данные.
+   1.4. Обработка персональных данных – любое действие (операция) или совокупность действий (операций) с персональными данными, совершаемых с использованием средств автоматизации или без их использования.
+   1.5. Оператор – лицо, которое определяет цели и средства обработки персональных данных.
+   1.6. Чат-бот — специальная автоматизированная программа, которая в автоматическом режиме обрабатывает текст, загруженный пользователем, расположенн
 
-## Information We Collect
 
-### Personal Information
+2. Общие положения
+   2.1. Политика действует в отношении обработки персональных данных и действует в отношении всей информации, которую Оператор может получить о Пользователе во время использования им Чат-бота, включая:
+   2.1.1. Персональные данные, которые Пользователь предоставляет о себе самостоятельно или предоставляемые в автоматическом режиме в процессе использования Чат-бота, включая, но не ограничиваясь: номер телефона, имя (псевдоним), идентификатор в мессенджере telegram.
+   2.2. Некоторые персональные данные предоставляются в автоматическом режиме ввиду использования мессенджера telegram. Использование таких персональных данных необходимо исключительно для обеспечения функционирования Чат-бота в мессенджере telegram и не является самостоятельной целью обработки персональных данных. Права и обязанности Оператора и Субъекта персональных данных в указанном случае определяются в соответствии с политикой конфиденциальности мессенджера telegram, размещенной по адресу: https:/ /telegram.org/privacy.
+   2.3. Действие Политики распространяется на все процессы по обработке, включая, но не ограничиваясь: сбор, запись, систематизация, хранение, уточнение, извлечение, обезличивание, блокирование, удаление, уничтожение.
 
-* **Name and email address**
-* **Billing information**
-* **Usage data and analytics**
-* **Communication preferences**
-
-### Automatically Collected Information
-
-* **IP addresses**
-* **Browser type**
-* **Device information**
-* **Cookies and tracking technologies**
-
----
-
-## How We Use Your Information
-
-We use the collected information for:
-
-* **Service Delivery**  
-  Providing and maintaining our service
-* **Updates**  
-  Notifying you about changes to our service
-* **Support**  
-  Providing customer support
-* **Transactions**  
-  Processing your transactions
-* **Analytics**  
-  Analyzing usage patterns to improve our service
-
----
-
-## Data Security
-
-We implement appropriate technical and organizational security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure.
-
----
-
-## Third-Party Services
-
-We may employ third-party companies and individuals to:
-
-* Facilitate our service
-* Provide service-related services
-* Assist in analyzing service usage
-
----
-
-## Your Rights
-
-You have the right to:
-
-* **Access** your personal data
-* **Correct** inaccurate data
-* **Request deletion** of your data
-* **Object** to data processing
-* **Export** your data
-
----
-
-## Changes to This Policy
-
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
-
----
-
-## Contact Us
-
-If you have questions about this Privacy Policy, please contact us at:
-
-* **Email:** privacy@saasify.com
-* **Address:** 123 Tech Street, San Francisco, CA 94105
-
-*Last Updated: January 2024*
+3. Условия обработки персональных данных
+   3.1. Мы не собираем и не храним никаких ваших персональных данных.

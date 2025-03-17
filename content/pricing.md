@@ -11,14 +11,12 @@ layout: "pricing"
     "plans": [
         {
             "name": "Личный блог",
-            "price": "4999",
-            "description": "Best option for personal use & for your next project.",
+            "price": "2500",
+            "description": "Дичный ",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 1 developer",
-                "Premium support: 6 months",
-                "Free updates: 6 months"
+                "Любое число страниц",
+                "Простое редактирование исключений прямо на странице",
+                "Поддержка по почте и в телеграме"
             ],
             "button": {
                 "text": "Подключиться",
@@ -27,14 +25,12 @@ layout: "pricing"
         },
         {
             "name": "Региональное СМИ",
-            "price": "30000",
-            "description": "Relevant for multiple users, extended & premium support.",
+            "price": "25000",
+            "description": "Городское или региональное СМИ",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 10 developers",
-                "Premium support: 24 months",
-                "Free updates: 24 months"
+                    "Любое число страниц",
+                    "Простое редактирование исключений прямо на странице",
+                    "Поддержка по почте и в телеграме"
             ],
             "button": {
                 "text": "Подключиться",
@@ -44,17 +40,30 @@ layout: "pricing"
         {
             "name": "Федеральное СМИ",
             "price": "90000",
-            "description": "Best for large scale uses and extended redistribution rights.",
+            "description": "СМИ про страну",
             "features": [
-                "Individual configuration",
-                "No setup, or hidden fees",
-                "Team size: 100+ developers",
-                "Premium support: 36 months",
-                "Free updates: 36 months"
+                "Любое число страниц",
+                "Простое редактирование исключений прямо на странице",
+                "Поддержка по почте и в телеграме"
             ],
             "button": {
                 "text": "Подключиться",
                 "url": "#"
+            }
+        },
+        {
+            "name": "Индивидуальный подход",
+            "price": "?",
+            "description": "Хотите работать по API? Есть иные пожелания? Расскажите нам",
+            "features": [
+                "Любое число страниц",
+                "Поддержка по почте и в телеграме",
+                "Возможность работы по API",
+                "Индивидуальные пожелания"
+            ],
+            "button": {
+                "text": "Связаться с нами",
+                "url": "mailto:nikita@snoska.media?cc=igor@snoska.media&subject=Персональный тариф"
             }
         }
     ]
@@ -63,89 +72,42 @@ layout: "pricing"
 
 <div class="mt-16"></div>
 
-{{< pricing-table-2 >}}
+{{< pricing-table-telegram >}}
 {
-    "title": "Alternative Pricing Options",
-    "description": "Choose a plan that best suits your business needs with our flexible pricing options.",
+    "title": "Тарифы для Телеграм-каналов",
+    "description": "",
     "plans": [
         {
-            "name": "Basic",
-            "price": "19",
-            "description": "Perfect for freelancers and solo developers.",
+            "name": "Один канал",
+            "price": "1",
+            "description": "Один канал. Тематика не имеет значения",
             "features": [
-                "Core features included",
-                "Community support",
-                "Team size: 1 developer",
-                "Basic analytics",
-                "Monthly updates"
+                "Проверим всю историю канала",
+                "Будем мониторить новые сообщения",
+                "Скидка на следующий год"
             ],
             "button": {
-                "text": "Choose Basic",
+                "text": "Подключиться",
                 "url": "#"
             }
         },
         {
-            "name": "Professional",
-            "price": "79",
-            "description": "Ideal for growing development teams.",
-            "featured": true,
+            "name": "Сетка каналов",
+            "price": "?",
+            "description": "2+ канала",
             "features": [
-                "All Basic features",
-                "Priority support",
-                "Team size: up to 5 developers",
-                "Advanced analytics",
-                "CI/CD integration"
+                "Проверим всю историю канала",
+                "Будем мониторить новые сообщения",
+                "Поддержка по почте и в телеграме",
+                "Скидка на следующий год"
             ],
             "button": {
-                "text": "Choose Pro",
-                "url": "#"
-            }
-        },
-        {
-            "name": "Business",
-            "price": "299",
-            "description": "For large organizations and enterprises.",
-            "features": [
-                "All Pro features",
-                "24/7 dedicated support",
-                "Unlimited team size",
-                "Custom integrations",
-                "SLA guarantee"
-            ],
-            "button": {
-                "text": "Choose Business",
-                "url": "#"
+                "text": "Связаться с нами",
+                "url": "mailto:nikita@snoska.media?cc=igor@snoska.media&subject=Сетка телеграм-каналов"
             }
         }
     ]
 }
-{{< /pricing-table-2 >}}
+{{< /pricing-table-telegram>}}
 
-{{< faq >}}
-{
-    "title": "Common Questions",
-    "description": "Find answers to frequently asked questions about our pricing plans and features.",
-    "questions": [
-        {
-            "question": "What type of payment do you accept?",
-            "answer": "We accept all major credit cards, PayPal, and bank transfers. All payments are processed securely through our payment providers."
-        },
-        {
-            "question": "Do you offer custom pricing for larger teams?",
-            "answer": "Yes! If you have specific needs or a larger team, please contact our sales team for custom pricing tailored to your requirements."
-        },
-        {
-            "question": "What's included in the free updates?",
-            "answer": "Free updates include all new features, improvements, and bug fixes released during your subscription period. You'll always have access to the latest version."
-        },
-        {
-            "question": "What kind of support is included?",
-            "answer": "All plans include technical support, with varying response times based on your plan level. Enterprise customers get priority support with dedicated account managers."
-        },
-        {
-            "question": "Can I upgrade or downgrade my plan?",
-            "answer": "Yes, you can change your plan at any time. When upgrading, you'll be prorated for the remainder of your billing period. When downgrading, changes take effect at the next billing cycle."
-        }
-    ]
-}
-{{< /faq >}}
+

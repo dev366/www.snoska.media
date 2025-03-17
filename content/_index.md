@@ -46,36 +46,36 @@ testimonials:
 >}}
 
 {{< feature
-    title="Lightning-Fast Performance"
-    description="Leverage Hugo's blazing-fast build times and optimized output. Your website loads instantly, providing an exceptional user experience."
+    title="Автоматическая маркировка"
+    description="Маркируем все лица, которые требуется маркировать по законодательству России:"
     badge="Performance"
     badgeColor="#2563eb"
     image="/images/feature-1.svg"
-    buttonText="Learn More"
+    buttonText="Подробности"
     buttonLink="/features/performance/"
-    features="Sub-second page loads,Optimized assets,Minimal JavaScript,CDN-ready output"
+    features="Иностранных агентов,Террористов,Экстремистов"
     imagePosition="right"
 >}}
 
 {{< feature
-    title="Beautiful Design System"
-    description="Create stunning user interfaces with our comprehensive design system built on TailwindCSS. Customize everything to match your brand."
+    title="Удобный интерфейс для внесения исключений"
+    description="Можно быстро корректировать маркировку с тезок лиц, внесенных в реестр прямо на странице"
     badge="Design"
     badgeColor="#7c3aed"
     image="/images/feature-2.svg"
-    buttonText="Learn More"
+    buttonText="Подробности"
     buttonLink="/features/design-system/"
-    features="Modern UI components,Responsive design,Custom typography,Flexible layouts"
+    features="Быстрая корректировка тезок,Поддержка коротких имен физлиц,Custom typography,Flexible layouts"
     imagePosition="left"
 >}}
 
 {{< feature
-    title="Developer Experience"
+    title="Поддержка телеграм-каналов"
     description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
     badge="Development"
     badgeColor="#16a34a"
     image="/images/feature-3.svg"
-    buttonText="Learn More"
+    buttonText="Подробности"
     buttonLink="/features/developer-experience/"
     features="Component system,Easy customization,Clean code,Detailed documentation"
     imagePosition="right"
