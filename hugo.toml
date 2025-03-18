@@ -81,8 +81,10 @@ telegram = "https://t.me/snoska_media"
 # Navigation Menu
 [menu]
 [[menu.main]]
-name = "Возможности"
+name = "Главная"
 weight = 1
+url = "/"
+
 [[menu.main]]
 name = "Цены"
 url = "/pricing"

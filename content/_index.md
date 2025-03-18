@@ -12,23 +12,27 @@ client_logos:
   - name: "Customer 5"
     logo: "/images/logos/customer-5.png"
 testimonials:
-  - name: "John Smith"
-    title: "CTO at TechStartup"
+  - name: "Маргарита Симоньян"
+    title: "Глава Russia Today"
     avatar: "/images/testimonial-1.svg"
-    quote: "We built our SaaS website in record time. The performance is incredible, and our users love the modern, clean design."
-  - name: "Sarah Johnson"
-    title: "Founder at WebFlow"
+    quote: "Нас, конечно, и так РКН не вздрючит, но вот если вдруг... Вам точно лучше быть готовыми"
+  - name: "Дождь"
+    title: "Телеканал"
     avatar: "/images/testimonial-1.svg"
-    quote: "The combination of Hugo and TailwindCSS delivers lightning-fast performance. Our website loads instantly, which has significantly improved our conversion rates."
-  - name: "Michael Chen"
-    title: "Lead Developer at CloudTech"
+    quote: "Мы не хотим платить штрафы за отсутствующую маркировку. Пусть это делает кто-то другой"
+  - name: "Ваня Шкиря"
+    title: "Эмо.Медиа"
     avatar: "/images/testimonial-1.svg"
-    quote: "This theme made it easy to create a professional SaaS website. The build times are incredibly fast, and the code is clean and maintainable."
+    quote: "Пацаны крутые. Все сделали быстро и качественно. Пускаем слезу"
+  - name: "И Шкиря"
+    title: "Эмо.Медиа"
+    avatar: "/images/testimonial-1.svg"
+    quote: "Пацаны крутые. Все сделали быстро и качественно. Прослезился"
 ---
 
 {{< hero 
     headline="Автоматическая маркировка Иноагентов, Террористов и Экстремистов"
-    sub_headline="На веб-сайтах и в Телеграме... Сделано лучше вашего корректора"
+    sub_headline="На веб-сайтах и в Телеграме... Сделаем все лучше вашего корректора"
     primary_button_text="Подключиться"
     primary_button_url="#"
     secondary_button_text="Посмотреть примеры"
@@ -84,6 +88,13 @@ testimonials:
 {{< /features-section >}}
 
 {{< client-logos animate="true" title="Компании, которые мы защищаем от штрафов Роскомнадзора">}}
+
+{{< testimonials
+title="Мнения о нас"
+    description="Не берите на веру, просто почитайте"
+    animate="true"
+    background-color="#f1f5f9"
+>}}
 
 
 {{< cta >}}
