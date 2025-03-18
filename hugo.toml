@@ -89,7 +89,7 @@ url = "/pricing"
 weight = 2
 [[menu.main]]
 name = "Вопросы и ответы"
-url = "/faq"
+url = "/blog"
 weight = 3
 #[menu.main.params]
 #has_submenu = true

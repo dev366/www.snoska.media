@@ -28,7 +28,7 @@ testimonials:
 
 {{< hero 
     headline="Автоматическая маркировка Иноагентов, Террористов и Экстремистов"
-    sub_headline="На веб-страницах и в Телеграм"
+    sub_headline="На веб-сайтах и в Телеграме... Сделано лучше вашего корректора"
     primary_button_text="Подключиться"
     primary_button_url="#"
     secondary_button_text="Посмотреть примеры"
@@ -42,42 +42,42 @@ testimonials:
 
 {{< features-section 
     title="Автоматическая маркировка иноагентов, террористов и экстремистов"
-    description="Защитим вас от штрафов Роскомнадзора за некорректную маркировку "
+    description="Защитим вас от штрафов Роскомнадзора за отсутствующую маркировку"
 >}}
 
 {{< feature
     title="Автоматическая маркировка"
     description="Маркируем все лица, которые требуется маркировать по законодательству России:"
-    badge="Performance"
+    badge="Возможности"
     badgeColor="#2563eb"
     image="/images/feature-1.svg"
     buttonText="Подробности"
     buttonLink="/features/performance/"
-    features="Иностранных агентов,Террористов,Экстремистов"
+    features="Иностранных агентов,Террористов,Экстремистов,Список Росфинмониторинга (по запросу)"
     imagePosition="right"
 >}}
 
 {{< feature
     title="Удобный интерфейс для внесения исключений"
-    description="Можно быстро корректировать маркировку с тезок лиц, внесенных в реестр прямо на странице"
-    badge="Design"
+    description="Можно быстро корректировать маркировку тезок лиц, внесенных в реестр, прямо на странице"
+    badge="Удобство"
     badgeColor="#7c3aed"
     image="/images/feature-2.svg"
     buttonText="Подробности"
     buttonLink="/features/design-system/"
-    features="Быстрая корректировка тезок,Поддержка коротких имен физлиц,Custom typography,Flexible layouts"
+    features="Быстрая корректировка тезок,Статистика по маркировке,Ссылки на все страницы с маркировкой"
     imagePosition="left"
 >}}
 
 {{< feature
     title="Поддержка телеграм-каналов"
     description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
-    badge="Development"
+    badge="Телега"
     badgeColor="#16a34a"
     image="/images/feature-3.svg"
     buttonText="Подробности"
     buttonLink="/features/developer-experience/"
-    features="Component system,Easy customization,Clean code,Detailed documentation"
+    features="Проверяем новые сообщения,Мониторим всю историю канала,Присылаем уведомления если нет маркировки"
     imagePosition="right"
 >}}
 
