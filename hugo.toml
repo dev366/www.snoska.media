@@ -54,10 +54,10 @@ src = "/images/logo.svg"
 [params.header.buttons]
 [params.header.buttons.signIn]
 text = "Войти в ЛК"
-url = "/signin"
+url = "app.snoska.media/auth/login"
 [params.header.buttons.getStarted]
 text = "Подключиться"
-url = "/get-started"
+url = "https://app.snoska.media/auth/signup"
 
 # Global CTA Configuration (optional)
 [params.cta]
@@ -66,7 +66,7 @@ title = "Готовы подключиться?"
 #description = "Join companies using our platform"
 [params.cta.primary_button]
 text = "Да, подключаемся"
-url = "/get-started"
+url = "https://app.snoska.media/auth/signup"
 [params.cta.secondary_button]
 text = "Нет, хочу задать вопрос"
 url = "mailto:info@snoska.media?subject=Вопрос"
@@ -116,9 +116,9 @@ weight = 3
 
 # Footer Column 1 Menu
 [[menu.footer_column_1]]
-name = "О Нас"
-url = "/company"
-weight = 2
+name = "Вопросы и ответы"
+url = "/blog"
+weight = 1
 [[menu.footer_column_2]]
 name = "Правила"
 url = "/terms"
