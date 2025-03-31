@@ -12,10 +12,10 @@ client_logos:
   - name: "Customer 5"
     logo: "/images/logos/customer-5.png"
 testimonials:
-  - name: "Маргарита Симоньян"
+  - name: "Маргарита С."
     title: "Глава Russia Today"
     avatar: "/images/testimonial-1.svg"
-    quote: "Нас, конечно, и так РКН не вздрючит, но вот если вдруг... Вам точно лучше быть готовыми"
+    quote: "Нас, конечно, и так РКН не вздрючит... А вам точно лучше быть готовыми"
   - name: "Дождь"
     title: "Телеканал"
     avatar: "/images/testimonial-1.svg"
@@ -32,7 +32,7 @@ testimonials:
     primary_button_text="Подключиться"
     primary_button_url="#"
     secondary_button_text="Посмотреть примеры"
-    secondary_button_url="#"
+    secondary_button_url="/blog/examples/"
     hero_image="/images/hero-dashboard.svg"
     gradient-from="#dbeafe"
     gradient-to="#f3e8ff"
@@ -41,7 +41,7 @@ testimonials:
 
 
 {{< features-section 
-    title="Автоматическая маркировка иноагентов, террористов и экстремистов"
+    title="Автоматическая маркировка иностранных агентов, террористов и экстремистов"
     description="Защитим вас от штрафов Роскомнадзора за отсутствующую маркировку"
 >}}
 
