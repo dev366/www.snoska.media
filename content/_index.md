@@ -71,7 +71,7 @@ testimonials:
 
 {{< feature
     title="Поддержка телеграм-каналов"
-    description="Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
+    description="Добавьте свой телеграм-канал и мы будем следить за всеми текущими и старыми сообщениями и подскажем вам где не хватает маркировки"
     badge="Телега"
     badgeColor="#16a34a"
     image="/images/feature-3.svg"
@@ -83,7 +83,7 @@ testimonials:
 
 {{< /features-section >}}
 
-{{< client-logos animate="true" title="Компании, которые мы защищаем от штрафов Роскомнадзора">}}
+{{< client-logos animate="true" title="Компании, которые мы защищаем от конских штрафов Роскомнадзора">}}
 
 {{< testimonials
 title="Мнения о нас"
